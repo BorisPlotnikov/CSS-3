@@ -1,0 +1,282 @@
+body {
+  color: #06623b;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #142850;
+  margin: 0;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #184d47;
+  font-family: 'Monserrat', sans-serif;
+}
+
+a {
+  color: #184d47;
+  font-family: 'Monserrat', sans-serif;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #c7e2b2;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #c7e2b2 10px;
+  border-bottom: none;
+  width: 60px;
+  margin: 110px auto;
+}
+
+
+
+
+/* Header Section*/
+
+.header-container {
+  background-color: #84a9ac;
+  position: relative;
+  height: 100px;
+}
+
+.header-table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  table-layout: fixed;
+  width: 50%;
+}
+
+.logo-cell {
+  column-span: 3;
+  text-align: left;
+}
+
+.logo-img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.link-cell {
+  column-span: 3;
+  text-align: right;
+}
+
+.header-link {
+  color: #184d47;
+  margin: 8px 10px;
+  text-decoration: none;
+}
+
+
+
+
+/* Top Section */
+
+.top-container {
+  position: relative;
+  background-color: #84a9ac;
+}
+
+.main-title {
+  color: #e4f9ff;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  padding-top: 7%;
+}
+
+.sub-title {
+  margin: 0 auto 5%;
+  color: #e4f9ff;
+}
+
+.pro {
+  font-style: italic;
+  color: #e4f9ff;
+}
+
+.left-cloud {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  width: 5%;
+}
+
+.right-cloud {
+  position: absolute;
+  top: 53%;
+  right: 30%;
+  width: 7%;
+}
+
+.mountain {
+  margin: 2% auto 0;
+  display: block;
+  width: 600px;
+  height: 340px;
+  object-fit: cover;
+  object-position: 0 -18px;
+}
+
+
+
+
+/* Profile Section */
+.profile-img {
+  margin-top: 110px;
+  width: 150px;
+}
+
+.profile-title {
+  margin-top: 2%;
+}
+
+.profile-text {
+  margin: 3% auto 0;
+  width: 60%;
+  text-align: justify;
+}
+
+
+
+
+/* Skills Section */
+.skills-section {
+  padding: 20px 0;
+}
+
+.skill-row-title {
+  margin-top: 0;
+}
+
+.top-skill-row {
+  padding: 1px;
+  margin: 3% auto 0;
+  text-align: justify;
+  width: 60%;
+}
+
+.top-bird-img {
+  width: 100px;
+  float: left;
+  padding-bottom: 77px;
+}
+
+.html5-img {
+  width: 40px;
+  float: left;
+  margin-right: 20px;
+  padding-top: 31px;
+  padding-bottom: 100px;
+}
+
+.top-img-connector {
+  border: dotted green 2px;
+  border-bottom: none;
+  width: 30px;
+  float: left;
+  margin: 50px -4px 0 -2px;
+}
+
+.bottom-skill-row {
+  margin: 5% auto 0;
+  padding: 1px;
+  text-align: justify;
+  width: 60%;
+}
+
+.bottom-bird-img {
+  width: 100px;
+  float: right;
+  padding-bottom: 76px;
+}
+
+.css3-img {
+  width: 40px;
+  float: right;
+  margin-left: 20px;
+  padding-top: 31px;
+  padding-bottom: 100px;
+}
+
+.bottom-img-connector {
+  border: dotted green 2px;
+  border-bottom: none;
+  width: 26px;
+  float: right;
+  margin: 50px 2px 0 0;
+}
+
+
+
+
+/* Contact Me Section */
+.contact-me {
+  padding-bottom: 20px;
+}
+
+.contact-msg {
+  margin: 3% auto 0;
+}
+
+.btn {
+  background: #142850;
+  background-image: -webkit-linear-gradient(top, #142850, #27496d);
+  background-image: -moz-linear-gradient(top, #142850, #27496d);
+  background-image: -ms-linear-gradient(top, #142850, #27496d);
+  background-image: -o-linear-gradient(top, #142850, #27496d);
+  background-image: linear-gradient(to bottom, #142850, #27496d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Monserrat', sans-serif;
+  color: #e4f9ff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 30px auto 0;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #588da8;
+  background-image: -webkit-linear-gradient(top, #588da8, #00909e);
+  background-image: -moz-linear-gradient(top, #588da8, #00909e);
+  background-image: -ms-linear-gradient(top, #588da8, #00909e);
+  background-image: -o-linear-gradient(top, #588da8, #00909e);
+  background-image: linear-gradient(to bottom, #588da8, #00909e);
+}
+
+
+
+
+/* Footer Section */
+.footer-container {
+  padding: 30px 0 10px;
+  background-color: #84a9ac;
+}
+
+.attribution {
+  color: #184d47;
+  font-size: 0.75rem;
+  padding-top: 20px;
+  margin: 110px 0 0 0;
+}
+
+.copyright {
+  color: #184d47;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
