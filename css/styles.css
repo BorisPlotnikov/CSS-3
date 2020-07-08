@@ -60,7 +60,6 @@ hr {
 }
 
 .logo-cell {
-  column-span: 1;
   text-align: left;
 }
 
@@ -70,7 +69,6 @@ hr {
 }
 
 .link-cell {
-  column-span: 3;
   text-align: right;
 }
 
